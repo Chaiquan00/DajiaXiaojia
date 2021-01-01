@@ -1,0 +1,2 @@
+com/rj1932/zt/dajiaxiaojia/BuildConfig.java
+ com.rj1932.zt.dajiaxiaojia.BuildConfig

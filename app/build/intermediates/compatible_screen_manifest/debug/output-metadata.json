@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.rj1932.zt.dajiaxiaojia",
+  "variantName": "debug",
+  "elements": []
+}
