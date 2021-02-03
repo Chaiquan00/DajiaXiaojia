@@ -215,14 +215,15 @@
 
         </RelativeLayout>
 
+        <ImageView
+            android:id="@+id/login_back_view"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="@dimen/txt_18"
+            android:layout_marginTop="@dimen/txt_18"
+            android:src="@mipmap/back" />
+
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/login_back_view"
-        android:layout_width="26dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="25dp"
-        android:src="@mipmap/back" />
 </RelativeLayout>
 
