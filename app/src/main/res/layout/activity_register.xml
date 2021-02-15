@@ -29,58 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
-            <!--邀请码-->
-            <RelativeLayout
-                android:id="@+id/register_invitation_view"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RelativeLayout
-                    android:background="@drawable/login_borders"
-                    android:id="@+id/register_invitation_top_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp">
-                    <TextView
-                        android:layout_marginLeft="15dp"
-                        android:layout_centerVertical="true"
-                        android:id="@+id/register_invitation"
-                        android:textColor="@color/black_color"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="邀请码"
-                        android:textSize="@dimen/txt_15"/>
 
-                    <EditText
-                        android:layout_centerVertical="true"
-                        android:layout_toEndOf="@+id/register_invitation"
-                        android:id="@+id/register_invitation_edit_text"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/transparent"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="20dp"
-                        android:drawablePadding="6dp"
-                        android:layout_marginTop="0dp"
-                        android:focusable="true"
-                        android:hint="(可选填)填写获得观影特权"
-                        android:gravity="left|center"
-                        android:textColor="@color/black_color"
-                        android:singleLine="true"
-                        android:textSize="@dimen/txt_15" />
-                </RelativeLayout>
-                <TextView
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="5dp"
-                    android:layout_below="@+id/register_invitation_top_view"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/txt_13"
-                    android:text="填写邀请码可增加好友与自己的每日观影次数"
-                    android:textColor="@color/txt_light_grey"/>
-
-            </RelativeLayout>
             <!--手机号码-->
             <RelativeLayout
                 android:background="@drawable/login_borders"
@@ -88,7 +37,6 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="12dp"
-                android:layout_below="@+id/register_invitation_view"
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
                 <EditText
@@ -213,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/txt_13"
-                android:text="由6-20位字母或数字组成"
+                android:text="由6-15位字母或数字组成"
                 android:textColor="@color/txt_light_grey"/>
 
             <!--注册-->
@@ -240,14 +188,15 @@
 
         </RelativeLayout>
 
+        <ImageView
+            android:id="@+id/register_back_view"
+            android:layout_width="22dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/ic_black_brown" />
+
 
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/register_back_view"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_white_brown"/>
 </RelativeLayout>
